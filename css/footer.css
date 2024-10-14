@@ -1,0 +1,156 @@
+footer {
+    position: relative;
+    padding: 0 20px 90px;
+    color: #666;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.f-in {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.f-in .img-box {
+    width: 100%;
+    margin-bottom: 45px;
+}
+.f-in .img-box img {
+    width: 260px;
+}
+.f-in .con-box {
+    display: flex;
+    justify-content: space-between;
+}
+.f-in .left-box p {
+    margin-bottom: 10px;
+}
+.f-in .left-box p:first-child {
+    display: inline-block;
+    margin-right: 10px;
+}
+.f-in .left-box span {
+    padding: 4px 10px;
+    font-size: 1.4rem;
+    background-color: #eee;
+    border-radius: 6px;
+}
+.f-in .sns-box {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+.f-in .sns-box a {
+    display: block;
+    width: 28px;
+    height: 28px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    text-indent: -9999px;
+}
+.f-in .sns-box li:first-child a {
+    background-image: url(../img/sns/facebook.png);
+}
+.f-in .sns-box li:nth-child(2) a {
+    background-image: url(../img/sns/instagram.png);
+}
+.f-in .sns-box li:nth-child(3) a {
+    background-image: url(../img/sns/naverband.png);
+}
+.f-in .sns-box li:nth-child(4) a {
+    background-image: url(../img/sns/youtube.png);
+}
+.f-in .sns-box li:last-child a {
+    background-image: url(../img/sns/kakao.png);
+}
+.f-in .family-box {
+    position: relative;
+    text-align: right;
+}
+.f-in .family-box span {
+    display: flex;
+    align-items: center;
+    background-color: #eee;
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-weight: 700;
+}
+.f-in .family-box span::after {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    background: url(../img/down.png) no-repeat center / 100%;
+}
+.f-in .family-box .family-btn.active span::after {
+    transform: rotate(180deg);
+}
+.f-in .family-box .family-list {
+    position: absolute;
+    right: 0;
+    bottom: 110%;
+    display: none;
+    width: 131px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.f-in .family-box .family-list li {
+    padding: 4px 8px;
+}
+.f-in .family-box .family-list li:hover {
+    color: #333;
+}
+.f-in .family-box .family-btn.active + .family-list {
+    display: block;
+}
+@media (max-width: 768px) {
+    footer {
+        padding: 0 20px 45px;
+    }
+}
+@media (max-width: 580px) {
+    .f-in {
+        text-align: center;
+    }
+    .f-in .img-box {
+        margin-bottom: 20px;
+    }
+    .f-in .con-box {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .f-in .left-box {
+        order: 2;
+    }
+    .f-in .right-box {
+        order: 1;
+    }
+    .f-in .sns-box {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .f-in .family-box {
+        margin-bottom: 10px;
+    }
+    .f-in .family-box button {
+        width: 100%;
+    }
+    .f-in .family-box span {
+        justify-content: space-between;
+        padding: 6px 20px;
+    }
+    .f-in .family-box .family-list {
+        width: 100%;
+    }
+}
+@media (max-width: 400px) {
+    footer {
+        font-size: 1.4rem;
+    }
+    .f-in .left-box span {
+        font-size: 1.2rem;
+    }
+}
