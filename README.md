@@ -3,7 +3,7 @@
  <img src="https://github.com/user-attachments/assets/2c78ab2c-d14b-4f5e-b5f6-b0f52c2fe5b8" width= "500" height="500"/>
 </div>
 
-- 티머니 메인 페이지를 리디자인한 프로젝트 입니다.
+- 티머니 메인 페이지를 리디자인한 프로젝트입니다.
 - 티머니만의 친숙한 이미지를 살리면서 불필요한 요소는 없애고 편의성을 높여 새롭게 디자인하였습니다.
 <br>
 
