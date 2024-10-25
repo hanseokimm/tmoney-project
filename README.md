@@ -1,6 +1,6 @@
 # 티머니
 <div align="center">
- <img src="https://github.com/user-attachments/assets/2c78ab2c-d14b-4f5e-b5f6-b0f52c2fe5b8" width= "500" height="500"/>
+ <img src="https://github.com/user-attachments/assets/21d6120a-f1e8-4cc2-8b70-a67bc62ebca4" width= "600" height="600"/>
 </div>
 
 - 티머니 메인 페이지를 리디자인한 프로젝트입니다.
